@@ -1,7 +1,8 @@
-package ru.kalumbas.partyhouse
+package ru.kalumbas.partyhouse.activity
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
+import ru.kalumbas.partyhouse.R
 
 /**
  * Main activity of the app
