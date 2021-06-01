@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">PartyHouse</string>
+    <string name="app_name_ru">ПАТИХАУС</string>
+
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -11,4 +13,9 @@
     <string name="login_failed">"Login failed"</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login_hint">Логин</string>
+    <string name="password_hint">Пароль</string>
+    <string name="login_text">Войти</string>
+    <string name="reg_text"><u>Регистрация</u></string>
 </resources>
