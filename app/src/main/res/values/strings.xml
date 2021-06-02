@@ -30,9 +30,19 @@
     <string name="vk_hint">Ссылка на VK</string>
     <string name="register_button">Зарегистрироваться!</string>
 
-    <!--  LoginActivity  -->
+    <!--  ProfileActivity  -->
     <string name="age_mock">20 лет</string>
     <string name="vklink_mock">https://vk.com/id0</string>
     <string name="rating_mock">4,6</string>
+
+    <!--  EventFullInfoActivity  -->
+    <string name="event_name">Название мероприятия</string>
+    <string name="full_name">Имя фамилия</string>
+    <string name="full_info">Полная информация о мероприятии</string>
+    <string name="event_date">8 августа, 17:45</string>
+    <string name="event_place">м. Юго-Западная</string>
+    <string name="guests_count">Людей: 15/25</string>
+    <string name="event_price">Взнос: от 1000Р</string>
+    <string name="tick_button_text">Я иду!</string>
 
 </resources>
