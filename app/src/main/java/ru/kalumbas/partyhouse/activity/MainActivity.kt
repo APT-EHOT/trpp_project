@@ -1,8 +1,11 @@
 package ru.kalumbas.partyhouse.activity
 
 import android.os.Bundle
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.Observer
 import ru.kalumbas.partyhouse.R
+import ru.kalumbas.partyhouse.viewModel.MainActivityViewModel
 
 /**
  * Main activity of the app
@@ -12,29 +15,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-    }
 
-    /**
-     * Loads party list info from server
-     * @param apiKey an apiKey to form query for server
-     */
-    fun loadPartyListActivity(apiKey: String) {
+        val viewModel by viewModels<MainActivityViewModel>()
+        viewModel.getInfo(1)
+        viewModel.getEvents().observe(this, Observer {
 
-    }
-
-    /**
-     * Shows all parties list in recyclerView
-     */
-    fun showPartyList() {
-
-    }
-
-    /**
-     * Makes transition to full info activity
-     * @param messageForNextActivity message to send for next activity via
-     * intent extras
-     */
-    fun goOnFullInfoActivity(messageForNextActivity: String) {
-
+        })
     }
 }
