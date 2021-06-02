@@ -30,4 +30,9 @@
     <string name="vk_hint">Ссылка на VK</string>
     <string name="register_button">Зарегистрироваться!</string>
 
+    <!--  LoginActivity  -->
+    <string name="age_mock">20 лет</string>
+    <string name="vklink_mock">https://vk.com/id0</string>
+    <string name="rating_mock">4,6</string>
+
 </resources>
